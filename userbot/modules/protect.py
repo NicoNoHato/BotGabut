@@ -21,7 +21,7 @@ def progress(current, total):
     )
 
 
-@register(outgoing=True, pattern=r"^\.protecc$")
+@register(outgoing=True, pattern=r"^\.pw$")
 async def _(event):
     if event.fwd_from:
         return
